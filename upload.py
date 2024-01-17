@@ -19,8 +19,8 @@ def authenticate():
 
 def upload_to_drive(credentials):
     drive_service = build('drive', 'v3', credentials=credentials)
-    targetFolderId = '11rKlOSsJltv06q3lhVojQ9Klq5ffobWI'
-    fileName= 'djwkak.png'
+    targetFolderId = 'your-target-folder-id'
+    fileName= 'your-file-name'
     originFilePath = f'{workingDirectory}/{fileName}'
     targetFileName = fileName
 
